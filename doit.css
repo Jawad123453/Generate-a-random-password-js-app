@@ -1,0 +1,52 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(40, 40, 92);
+  font-family: sans-serif;
+  margin-inline:2rem;
+}
+.header{
+  margin-top: 5rem;
+  color:white;
+}
+.main-header{
+  line-height: 1;
+}
+.main-header h1:last-child{
+  color:yellowgreen;
+}
+.header h3{
+  margin-top: 1rem;
+  color:rgb(192, 192, 192);
+}
+.random{
+  margin:3rem 0 1.5rem 0;
+}
+.random button{
+  color:white;
+  background-color: yellowgreen;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding:0.5rem 1rem;
+}
+.main-buttons{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 1rem;
+}
+.holder{
+  height: 3rem;
+  color:black;
+  background-color: rgb(35, 35, 73);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
